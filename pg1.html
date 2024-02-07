@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <svg viewBox="0 0 500 500">
+        <path id="edge1" d="M150 50 L250 150"/>
+        <text width ="500" > <textPath xlink:href="#edge1">
+            Slice and dice,
+        </textPath>
+        </text>
+        <path id="edge2" d="M120 0 L250 150" transform="translate(10,110) scale(1, -1)"/>
+        <text width ="500"> <textPath xlink:href="#edge2">
+            Slice and dice,
+        </textPath>
+        </text>
+    </svg>
+</body>
+</html>
