@@ -4,10 +4,22 @@
     position: absolute
   } */
 
+.bodies{
+    background-color:#230E0E;
+
+}
+.first{
+    background-color:#E4DA2F;
+}
 path{
     fill: transparent;
 }
-
+.svg_slope {
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 
 .hedehog{
     display: flex;
@@ -15,16 +27,51 @@ path{
     align-items:center;
 }
 .hedehog img{
-    width:840px;
-    height:750px;
+    width:640px;
+    height:450px;
 }
-.upSideDown{
-    display: inline;
-    font-size: 100px;
-    font-style: bold;
-    -moz-transform: scale(-1, -1);
-    -webkit-transform: scale(-1, -1);
-    -o-transform: scale(-1, -1);
-    -ms-transform: scale(-1, -1);
-    transform: scale(-1, -1);
+.alien{
+    width:1580px;
+    height: 900px;
+    position:absolute;
+    z-index: -1;
+}
+.eyes{
+    width:500px;
+    height:450px;
+    position:absolute;
+    transform: translate(-800px,60px);
+    z-index: 0;
+}
+.contain a{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.container{
+   margin:auto;
+   width:50%;
+   padding: 10px;
+}
+.child{
+    width:400px;
+    height:300px;
+    padding-left: 180px;
+    padding-top: 5px;
+}
+.snail{
+    width:600px;
+    height:450px;
+    position:absolute;
+    z-index: -1;
+    transform: translateX(400px);
+}
+.girl{
+    position:absolute;
+    z-index: -1;
+    
+}
+h3{
+    color:red;
+    font-size: 125px;
 }
